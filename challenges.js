@@ -1,8 +1,7 @@
-//ex 9
-function stars_triangle() {
-  let symbole = ''
-  for (let i = 0 ; i < 5 ; i++) {
-      symbole = symbole + '*'
-      console.log(symbole)
+//ex 10
+function repeat (str,n) {
+  for (let i = 1 ; i < n ; i++) {
+      str += str
   }
-};
+  return str
+}
