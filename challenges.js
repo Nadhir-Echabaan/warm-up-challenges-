@@ -1,4 +1,4 @@
-//ex 6
-function JOIN(arr) {
-  return arr.join('+')
-}
+//ex 7
+arr.sort(function(a,b){
+  return a-b
+})
