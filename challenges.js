@@ -1,9 +1,9 @@
-//ex 8
-function swapcase(str) {
-  let new_str = ''
-  for (let i = 0 ; i < str.length ; i++) {
-      if (str[i] === str[i].toUpperCase()) new_str = new_str + str[i].toLowerCase()
-      else if (str[i] === str[i].toLowerCase()) new_str = new_str + str[i].toUpperCase()
-  }
-  return new_str
+//ex 9
+function humanize_format (num) {
+  num = num +''
+  if (num[num.length - 1] === '1') num = num + 'st'
+  else if (num[num.length - 1] === '2') num = num + 'nd'
+  else if (num[num.length - 1] === '3') num = num + 'rd'
+  else num = num + 'th'
+  return num
 }
